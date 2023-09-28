@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "R-Debugger",
+            "request": "launch",
+            "name": "Debug R File",
+            "file": "main.r",
+            "debugMode": "function",
+            "workingDirectory": "${workspaceFolder}"
+        }
+    ]
+}
