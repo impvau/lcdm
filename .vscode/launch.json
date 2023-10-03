@@ -5,7 +5,7 @@
             "type": "R-Debugger",
             "request": "launch",
             "name": "Debug R File",
-            "file": "main.r",
+            "file": "main.R",
             "debugMode": "function",
             "workingDirectory": "${workspaceFolder}"
         }
