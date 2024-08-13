@@ -1,1 +1,5 @@
-*.csv
+**.csv
+**.zip
+**.png
+@eaDir
+**.db

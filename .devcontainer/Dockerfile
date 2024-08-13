@@ -7,7 +7,10 @@ FROM rocker/r-ver:latest
 # RUN apt-get update && apt-get install -y \
 #     lib<name>-dev
 
+#RUN apt install apt-get install -y imagemagick libmagick++-dev
+
 # Install R packages
 RUN R -e "install.packages('languageserver', repos='https://cloud.r-project.org/')"
 RUN R -e "install.packages('celestial', repos='https://cloud.r-project.org/')"
 RUN R -e "install.packages('vscDebugger', repos='https://cloud.r-project.org/')"
+RUN R -e "install.packages('scatterplot3d', repos='https://cloud.r-project.org/')"
